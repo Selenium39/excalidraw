@@ -693,22 +693,37 @@ export const actionChangeFontFamily = register({
       text: string;
       icon: JSX.Element;
     }[] = [
-      {
-        value: FONT_FAMILY.Virgil,
-        text: t("labels.handDrawn"),
-        icon: FreedrawIcon,
-      },
-      {
-        value: FONT_FAMILY.Helvetica,
-        text: t("labels.normal"),
-        icon: FontFamilyNormalIcon,
-      },
-      {
-        value: FONT_FAMILY.Cascadia,
-        text: t("labels.code"),
-        icon: FontFamilyCodeIcon,
-      },
-    ];
+        {
+          value: FONT_FAMILY.Jason,
+          text: "Jason 手写",
+          icon: FreedrawIcon,
+        },
+        {
+          value: FONT_FAMILY.Mark,
+          text: "马可手写",
+          icon: FreedrawIcon,
+        },
+        {
+          value: FONT_FAMILY.Jianhao,
+          text: "剑豪手写",
+          icon: FreedrawIcon,
+        },
+        {
+          value: FONT_FAMILY.Virgil,
+          text: t("labels.handDrawn"),
+          icon: FreedrawIcon,
+        },
+        {
+          value: FONT_FAMILY.Helvetica,
+          text: t("labels.normal"),
+          icon: FontFamilyNormalIcon,
+        },
+        {
+          value: FONT_FAMILY.Cascadia,
+          text: t("labels.code"),
+          icon: FontFamilyCodeIcon,
+        },
+      ];
 
     return (
       <fieldset>
